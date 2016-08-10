@@ -1,0 +1,41 @@
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>add</title>
+    <link rel="stylesheet" href="/stylesheets/add_admin.css">
+</head>
+<body>
+<div class="home_navigation">
+    <p class="head_line"> pos机后台管理系统</p>
+</div>
+<div class="page_content">
+    <div class="left_nevigation">
+        <a href="admin"><button class="shopping_manage">商品管理</button></a>
+        <button class="discount_activity">折扣活动</button>
+    </div>
+    <div class="operating_page">
+        <form method="post">
+        <a href="admin"><input type="submit" class="operating_shopping" value="保存商品"></a>
+        <a href="add_shopping_property"><button class="operating_shopping">添加属性</button></a>
+        <a href="delate_admin"><button class="operating_shopping">删除属性</button></a>
+        <button class="operating_shopping">  取消 </button>
+        <div class="adjunction">
+            <p class="shopping_info">商 品 名 称： <input type="text" name="name" class="add_info" placeholder="请输入商品名称"></p>
+            <p class="shopping_info">商 品 数 量： <button class="reduce_count" >-</button><input type="text" class="count_info" name="count" placeholder="0"><button class="add_count">+</button></p>
+            <p class="price_info">单 价 (元)  ：   <input type="text" name="price" class="add_info" placeholder="请输入单价"></p>
+            <p class="unit_info">     单 位  ：   <input type="text" name="unit" class="add_info" placeholder="请输入单位"></p>
+        </div>
+        </form>
+    </div>
+</div>
+<article>
+    <% if (success) { %>
+    <div><%= success %></div>
+    <% } %>
+    <% if (error) { %>
+    <div><%= error %> </div>
+<% } %>
+</article>
+</body>
+</html>

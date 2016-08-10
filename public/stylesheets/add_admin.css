@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    width:1300px;
+}
+.home_navigation{
+    margin: 0px;
+    height:50px;
+    width:1300px;
+    background-color: rgba(128, 128, 128, 0.09);
+    border:2px solid rgba(156, 154, 148, 0.98);
+}
+.head_line{
+    margin: 0px 0px 0px 110px;
+    font-size:20px;
+    color:black;
+    line-height:45px;
+}
+.page_content{
+    margin-right:0px;
+    height:650px;
+    width:1300px;
+}
+.left_nevigation{
+    width:240px;
+    margin:0px;
+    height:650px;
+    float:left;
+    border-right:2px solid rgba(84, 83, 80, 0.98);
+    background-color: rgba(128, 128, 128, 0.53);
+}
+.shopping_manage{
+    margin: 0px;
+    height:40px;
+    width:240px;
+    border:0px;
+    border-bottom:1px solid rgba(84, 83, 80, 0.98);
+    font-size:15px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.53);
+}
+.discount_activity{
+    margin: 0px;
+    height:40px;
+    width:240px;
+    border:0px;
+    font-size:15px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.53);
+    border-bottom:1px solid rgba(84, 83, 80, 0.98);
+}
+.operating_page{
+    float:left;
+    margin: 0px;
+    height:650px;
+    width:1000px;
+}
+.operating_shopping{
+    height:30px;
+    width:80px;
+    margin:40px 0px 0px 150px;
+    border-radius: 5px;
+}
+.adjunction{
+    margin: 0px;
+    height:200px;
+    width:1000px;
+    float:left;
+}
+.shopping_info{
+    display:inline;
+    width:300px;
+    margin:40px 0px 0px 150px;
+}
+.unit_info{
+    display:inline;
+    width:300px;
+    margin:40px 0px 0px 185px;
+}
+.price_info{
+    display:inline;
+    width:300px;
+    margin:40px 0px 0px 155px;
+}
+.add_info{
+    width:210px;
+    height:25px;
+    margin-top:40px;
+}
+.count_info{
+    text-align: center;
+    width: 70px;
+    height: 28px;
+    margin-top:40px;
+}
+.add_count{
+    border:1px solid #c7c7c7;
+    background-color:white;
+    height:34px;
+    width:70px;
+}
+.reduce_count{
+   border:1px solid #c7c7c7;
+    background-color:white;
+    height:34px;
+    width:70px;
+}
