@@ -126,6 +126,24 @@ td{
     border:0px;
     width: 50px;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue ;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: blue ;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .hw-overlay{
     display:none;
     position: fixed;

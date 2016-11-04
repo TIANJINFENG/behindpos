@@ -110,7 +110,6 @@ Add.prototype.update = function(name,count,callback) {
     })
 }
 Add.prototype.remove = function(name,callback) {
-    console.log('-------------------------')
     mongodb.close()
     //打开数据库
     mongodb.open(function(err,db){
@@ -127,18 +126,13 @@ Add.prototype.remove = function(name,callback) {
             var query = {
                 name :name
             }
-            console.log(query)
             //根据query对象更新商品
             collection.remove(
                 query, function (err, add) {
                     db.close();
-                    console.log("---~~~~----------~~~-------")
                     if (err) {
-                        console.log("~~~~~~~~~~eee~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-                        console.log(err)
                         return callback(err);//错误，返回 err 信息
                     }
-                    console.log("---~~~~-----eee-----~~~-------")
                     callback(null, add);//成功！err 为 null，并返回存储后的商品文档
                 })
         })

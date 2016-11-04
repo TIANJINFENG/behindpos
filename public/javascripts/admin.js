@@ -48,15 +48,11 @@ $(function(){
         layerwrap.css({
             'margin-top': -layerwrap.outerHeight()/2
         });
-
     }
-
     //隐藏层
     function hideLayer(){
         $('.hw-overlay').fadeOut();
     }
-
-
     $('.hwLayer-ok,.hwLayer-cancel,.hwLayer-close').on('click', function() {
         hideLayer();
     });
